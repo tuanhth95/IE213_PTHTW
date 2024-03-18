@@ -1,0 +1,91 @@
+#general{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#form1{
+    display: block;
+    width: 600px;
+    height: fit-content;
+    margin-top: 50px ;
+    background-color: rgb(234, 241, 249);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#title{
+    background-color: rgb(106, 131, 162);
+    width: 100%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+#content{
+    padding: 10px;
+}
+img {
+    width: 150px;
+    height: fit-content;
+    margin-top: 10px;
+    float: right;
+}
+#field-area{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0px;
+    justify-content: space-between;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+#tenhs, #tengv {
+    width: 250px;
+}
+
+#lop, #date {
+    width: 150px;
+    margin-left: 8px;
+}
+textarea{
+    margin-top: 8px;
+    height: 80px;
+}
+input[type="checkbox"]{
+    margin-right: 12px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 16px;
+}
+#popup{
+    width: 600px;
+    height: fit-content;
+    background-color: rgb(103, 132, 162);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#popup-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size:  24px;
+}
