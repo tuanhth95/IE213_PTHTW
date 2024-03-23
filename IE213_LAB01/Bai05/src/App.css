@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  padding: 0 250px;
+}
+h1, h3, p, pre {
+  margin: 0;
+}
+form, .result {
+  margin-bottom: 100px;
+}
+.header {
+  background-color: red;
+  color:rgb(253, 197, 93);
+  text-align: center;
+  line-height: 50px;
+}
+.form-body, .result-body {
+  background-color: rgb(240, 214, 180);
+  padding: 10px;
+}
+.form-body > div {
+  display:flex;
+  margin: 10px 0;
+  gap: 100px;
+
+}
+.form-body > div > div{
+  display:flex;
+  /* margin: 20px 0; */
+  gap: 5px;
+  align-items:end;
+}
+.form-body-head {
+  color:tomato;
+}
+input {
+  line-height: 20px;
+}
+select {
+  font-size: 16px;
+}
+.know-via {
+  align-items: center;
+  padding: 10px 0;
+}
+.know-via #sources {
+  height: 63px;
+}
+#otherReq {
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 20px;
+}
+#otherReq textarea {
+  width: 100%;
+}
+.submitBtn {
+  justify-content: center;
+}
+button {
+  font-size: 16px;
+}
+.result-body > div {
+  margin-bottom: 20px;
+}
