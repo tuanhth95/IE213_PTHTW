@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { partyTypes, locations, ages, genders, options } from './data';
 import { useState } from 'react';
