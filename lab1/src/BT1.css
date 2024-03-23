@@ -1,0 +1,59 @@
+.bai1 {
+    max-width: 500px;
+    margin: 50px auto ;
+    border: 2px solid #ffcccc;
+    background-color: #ffcccc;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    background-color: #ff6666;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content label {
+    width: 50%;
+    text-align: start;
+}
+
+.Input {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.result {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Submit {
+    padding: 10px 20px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 2px 0 #333;
+}
+
+.Submit:disabled {
+    background-color: #ccc;
+}
+
+.Input:disabled {
+    background-color: #eee;
+}

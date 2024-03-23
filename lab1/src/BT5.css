@@ -1,0 +1,80 @@
+.bai5 
+{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f7e9dc;
+    border: 2px solid #f7e9dc;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 4px 0 #333;
+}
+
+.title5 {
+    margin-bottom:10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f2f25e;
+    background-color: #f25252;
+}
+
+.contentB5{
+    margin-bottom: 12px;
+}
+
+.contentB5 input[type="text"],
+.contentB5 input[type="number"],
+.contentB5 input[type="date"]
+{
+    margin-left: 12px;
+    margin-right: 32px;
+}
+
+.bai5 input[type="checkbox"]{
+    margin-left: 12px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.bai5 textarea{
+    margin-top: 12px;
+}
+
+.contentB5 select{
+    margin-left: 12px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.contentB5_Info {
+    display: flex;
+    align-items: center; /* căn giữa theo chiều dọc */
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.DatCho {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.DatCho button{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #b5b5b5;
+    padding: 5px;
+    box-shadow: 0 0 4px 0 #333;
+}
+/* Khi hiển thị đặt chỗ */
+
+.submitDatCho{
+    background-color: #f7e9dc;
+}
+
+.submitDatCho p, .submitDatCho h4{
+    margin: 0px 0px;
+}
+
+.submitDatCho p+h4{
+    margin-top: 12px;
+}

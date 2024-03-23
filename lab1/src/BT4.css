@@ -1,0 +1,127 @@
+.bai4 {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #e6ecf2;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.title4 {
+    font-size: 24px;
+    background-color: #4c96d3; 
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content4 {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-2 {
+    width: 100%; 
+}
+
+.content4 label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 40%; 
+}
+
+.Input4 {
+    width: calc(100% - 150px); 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 4px 4px;
+}
+
+.col label{
+    width: 100%;
+}
+
+.content4 textarea {
+    width: 100%;
+}
+
+.ghiNhan .Submit {
+    font-size: 14px;
+    width: fit-content;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.ghiNhan {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.content_check {
+    display: flex;
+    align-items: start;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.InputCheck{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.Input:disabled,
+.Submit:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+/* Phiếu theo dõi */
+
+.submitContent {
+    background-color: #4c96d3;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.submitContent h2{
+    text-align: center;
+}
+
+p {
+    margin-left: 25px;
+}
+
+@media (max-width: 600px) {
+    .bai4 {
+        width: auto;
+    }
+
+    .row-2 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .content label {
+        width: auto;
+    }
+
+    .Input {
+        width: 100%;
+    }
+}
