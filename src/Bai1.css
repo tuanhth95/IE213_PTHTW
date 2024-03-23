@@ -1,0 +1,36 @@
+.TitleKQ{
+    background-color: rgb(227, 33, 97);
+    color: aliceblue;
+}
+.Bai1 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #000;
+    background-color: palevioletred;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ContentKQ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.ContentKQ label {
+    text-align: start; 
+    margin-right: 10px; 
+    width: 30%;
+}
+
+.ContentKQ input {
+    flex: 1; 
+}
+
+.XemKetQua {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}

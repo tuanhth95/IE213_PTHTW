@@ -1,0 +1,108 @@
+#form{
+    display:block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(254,223,192);
+}
+#title{
+    background-color: rgb(212,0,22);
+    color: rgb(254,198,0);
+    font-weight: bold;
+}
+
+
+#content{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+#num-participate label{
+    display: inline-block;
+    margin-right: 6px;
+    color: rgb(149,65,50);
+    font-weight: 600;
+}
+#num-participate input{
+    width: 50px;
+}
+#date label{
+    display: inline-block;
+    margin-right: 6px;
+    color: rgb(149,65,50);
+    font-weight: 600;
+}
+
+
+.row div:first-child{
+    margin-right: 20px;
+}
+
+.right_10px{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+#guest-name div{
+    display: inline-block;
+}
+
+#guest-name input{
+    width: 200px;
+}
+#address div{
+    display: inline-block;
+}
+#address input{
+    width:300px;
+}
+select{
+    display: inline-block;
+}
+.center{
+    justify-content: center;
+}
+
+#age-range div:first-child{
+    display: inline-block;
+}
+
+#request div:first-child{
+    display: inline-block;
+}
+#general{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#popup{
+    width:600px;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#popup-content{
+    background-color: rgb(254,223,192);
+    padding: 10px;
+}
+#popup-content p:first-child{
+    margin-top: 0;
+}
+#popup-know-from{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
